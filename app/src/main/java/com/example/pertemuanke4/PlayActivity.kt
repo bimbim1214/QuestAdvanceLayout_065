@@ -35,7 +35,7 @@ fun PlayActivity(
         Spacer(modifier = Modifier.padding(10.dp))
         Text(text = "Kepada Yth : ", modifier.padding(start = 10.dp))
         Text(text = "Jodi", modifier.padding(10.dp))
-
+        Spacer(modifier = Modifier.padding(8.dp))
         MainSection(Judul = "Nama", isi = "Jodi")
         MainSection(Judul = "Kelas", isi = "B")
         MainSection(Judul = "NIM", isi = "20220140065")
@@ -86,7 +86,8 @@ fun SectionHeader(){
 fun MainSection(Judul: String, isi : String){
 
         Row(modifier = Modifier
-            .fillMaxWidth().padding(8.dp),
+            .fillMaxWidth()
+            .padding(8.dp),
             horizontalArrangement = Arrangement.SpaceBetween) {
             Text(text = Judul, modifier = Modifier.weight(0.8f))
             Text(text = ":", modifier = Modifier.weight(0.2f))
