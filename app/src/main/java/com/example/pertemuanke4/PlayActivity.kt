@@ -33,8 +33,8 @@ fun PlayActivity(
         modifier = modifier.fillMaxSize()) {
         SectionHeader()
         Spacer(modifier = Modifier.padding(10.dp))
-        Text(text = "Kepada Yth : ", modifier.padding(start = 15.dp))
-        Text(text = "Jodi", modifier.padding(15.dp))
+        Text(text = "Kepada Yth : ", modifier.padding(start = 10.dp))
+        Text(text = "Jodi", modifier.padding(10.dp))
 
         MainSection(Judul = "Nama", isi = "Jodi")
         MainSection(Judul = "Kelas", isi = "B")
